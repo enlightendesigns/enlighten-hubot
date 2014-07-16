@@ -1,3 +1,5 @@
+[ ![Codeship Status for luke-barnett/enlighten-hubot](https://www.codeship.io/projects/6de297f0-ef6d-0131-ec70-7e007383c378/status)](https://www.codeship.io/projects/27031)
+
 # Hubot
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.
