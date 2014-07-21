@@ -12,6 +12,6 @@
 
 module.exports = (robot) ->
 
-  robot.respond /TFS:(\d+)/i, (msg) ->
-    id = msg.match[2]
+  robot.respond /TFS:(\d+)?/i, (msg) ->
+    id = msg.match[1]
     msg.send "http://tfs.ed:8080/tfs/Enlighten/Enlighten/_workitems/edit/#{id}"
