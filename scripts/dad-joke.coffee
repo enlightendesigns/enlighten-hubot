@@ -1,6 +1,6 @@
 module.exports = (robot) ->
 
-                regex = /(I|i)(('?(m|M))|( am)) \w+/i
+                regex = /(I|i)(('?(m|M))|( am)) (\w+)/i
 
                 robot.hear regex, (msg) ->
                                 name = msg.match[5]
