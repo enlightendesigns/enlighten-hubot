@@ -3,5 +3,5 @@ module.exports = (robot) ->
                 regex = /(I|i)(('?(m|M))|( am)) \w+/i
 
                 robot.hear regex, (msg) ->
-                                name = msg.match[6]
+                                name = msg.match[5]
                                 msg.send "Hi #{name}. I am hubot"
