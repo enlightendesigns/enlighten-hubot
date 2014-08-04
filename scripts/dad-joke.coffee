@@ -4,4 +4,4 @@ module.exports = (robot) ->
 
                 robot.hear regex, (msg) ->
                                 name = msg.match[1]
-                                msg.send "Hi {name}. I am hubot"
+                                msg.send "Hi #{name}. I am hubot"
