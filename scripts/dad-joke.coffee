@@ -1,7 +1,5 @@
 module.exports = (robot) ->
-
-                regex = /(I|i)(('?(m|M))|( am)) \w+/i
-
+                regex = /((i)(('?m)|( am))) \w+/i
                 robot.hear regex, (msg) ->
-                                name = msg.match[1]
-                                msg.send "Hi {id}. I am hubot"
+                                name = msg.match[2]
+                                msg.send "Hi #{id}. I am hubot"
