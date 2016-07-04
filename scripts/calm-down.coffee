@@ -11,7 +11,7 @@
 
 module.exports = (robot) ->
   manatee = ->
-    num = Math.random(1, 34)
+    num = Math.floor(Math.random() * 34) + 1
     "http://calmingmanatee.com/img/manatee#{ num }.jpg"
 
   robot.respond /manatee|calm( me)?/i, (msg) -> msg.send manatee()
