@@ -6,6 +6,7 @@
   "description": "A simple helpful robot for your Company",
   "dependencies": {
     "hubot": "^2.19.0",
+    "hubot-calm-down": "^1.0.1",
     "hubot-diagnostics": "0.0.1",
     "hubot-help": "^0.2.0",
     "hubot-maps": "0.0.2",
